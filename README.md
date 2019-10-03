@@ -15,7 +15,16 @@ yarn add wrap-legacy-hbs-plugin-if-needed
 ```
 
 ```js
+// ESModules
 import wrapLegacyPluginIfNeeded from 'wrap-legacy-hbs-plugin-if-needed';
+
+const wrappedIfNeededPlugin = wrapLegacyPluginIfNeeded(legacyOrModernHbsPlugin)
+```
+
+
+```js
+// CJS
+const { default: wrapLegacyPluginIfNeeded } = require('wrap-legacy-hbs-plugin-if-needed');
 
 const wrappedIfNeededPlugin = wrapLegacyPluginIfNeeded(legacyOrModernHbsPlugin)
 ```
