@@ -1,6 +1,6 @@
 # wrap-legacy-hbs-plugin-if-needed
 
-![](https://github.com/stefanpenner/wrap-legacy-hbs-plugin-if-needed/workflows/CI/badge.svg)
+[![Build Status](https://github.com/stefanpenner/wrap-legacy-hbs-plugin-if-needed/workflows/CI/badge.svg)](https://github.com/stefanpenner/wrap-legacy-hbs-plugin-if-needed/actions?workflow=CI)
 
 This is a module that few should need to use, so if your not sure what this is
 you likely dont need to care. It exists to avoid copy/pasting the code between
