@@ -1,5 +1,7 @@
 # wrap-legacy-hbs-plugin-if-needed
 
+![](https://github.com/stefanpenner/wrap-legacy-hbs-plugin-if-needed/workflows/CI/badge.svg)
+
 This is a module that few should need to use, so if your not sure what this is
 you likely dont need to care. It exists to avoid copy/pasting the code between
 ember/embroider/ember-cli-htmlbars.
