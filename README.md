@@ -7,9 +7,12 @@ ember/embroider/ember-cli-htmlbars.
 such time as it is not longer needed, or ember provides the helper itself and
 all versions of ember which do not have become EOL.
 
+```sh
 yarn add wrap-legacy-hbs-plugin-if-needed
+```
 
+```js
 import wrapLegacyPluginIfNeeded from 'wrap-legacy-hbs-plugin-if-needed';
 
 wrapLegacyPluginIfNeeded(legacyOrModernHbsPlugin)
-
+```
