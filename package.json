@@ -6,12 +6,12 @@
   "author": "Stefan Penner <stefan.penner@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@glimmer/syntax": "^0.42.1"
-  },
-  "devDependencies": {
+    "@glimmer/syntax": "^0.42.1",
     "@glimmer/reference": "^0.42.1",
     "@glimmer/runtime": "^0.42.1",
-    "@simple-dom/interface": "^1.4.0",
+    "@simple-dom/interface": "^1.4.0"
+  },
+  "devDependencies": {
     "@types/jest": "^24.0.18",
     "jest": "^24.9.0",
     "ts-jest": "^24.1.0",
